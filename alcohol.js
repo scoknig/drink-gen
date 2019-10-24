@@ -4,7 +4,7 @@
 /** 
 Chandler Barlow
 06/10/19
-Linked to index.html
+Linked to index.html 
 Alcohol Site
 **/
 
