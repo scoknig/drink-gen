@@ -104,7 +104,8 @@ h1 {
 .ingredients {
   /** Dimensions **/
   width: 80%;
-  height: 8.7em;
+  height: auto;
+  /* height: 8.7em; */
   padding-left: 0;
   /** Position **/
   position: relative;
@@ -127,7 +128,8 @@ h1 {
 .instructions {
   /** Dimensions **/
   width: 28em;
-  height: 8.4em;
+  height: auto;
+  /* height: 8.4em; */
   padding: 0.3em;
   margin-right: 1.3%;
   /** Color **/
@@ -152,7 +154,7 @@ h1 {
     width: 100%;
   }
   .refreshbutton {
-    height: 3em;
+    vertical-align: middle;
   }
 
   .maincontainer {
