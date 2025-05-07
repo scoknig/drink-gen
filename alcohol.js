@@ -1,11 +1,8 @@
 /*eslint-env browser*/
 /* eslint-env es6 */
 /* eslint-disable */
-/** 
-Chandler Barlow
-06/10/19
+/**
 Linked to index.html 
-Alcohol Site
 **/
 
 // Creating a xhr object
@@ -85,9 +82,13 @@ function getCocktail() {
 // When the refresh button is clicked
 $(".refreshbutton").on("click", function() {
   // Animate maincontainer element to slide up
-  $(".maincontainer").slideUp(1000);
+  $(".maincontainer").slideUp(333);
   // Retrieve Cocktail info from db then render
   getCocktail();
   // Animate maincontainer to slide down
-  $(".maincontainer").slideDown(1000);
+  $(".maincontainer").slideDown(333);
+});
+
+$(document).ready(function(){
+  getCocktail();
 });
