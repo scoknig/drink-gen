@@ -39,7 +39,6 @@ h1 {
   background-color: white;
   /** Font **/
   font-size: 1.618em;
-  line-height: 1.5em;
   /** Border **/
   border: solid 4px #d2601a;
   border-radius: 1em;
@@ -158,7 +157,7 @@ h1 {
 
   .maincontainer {
     width: 90%;
-    height: 80%;
+    height: 75%;
     box-shadow: 0px 12px 20px #c4c4c4;
   }
 
